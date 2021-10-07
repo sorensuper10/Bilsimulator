@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="0.0" y="626.0">com.company.Bremse</node>
+    <node x="34.5" y="502.0">com.company.Main</node>
+    <node x="440.0" y="0.0">com.company.Hjul</node>
+    <node x="39.0" y="0.0">com.company.Motor</node>
+    <node x="264.0" y="0.0">com.company.Rat</node>
+    <node x="0.0" y="195.0">com.company.Bil</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Bil" target="com.company.Motor" relationship="TO_ONE">
+      <point x="54.75" y="-128.5" />
+      <point x="164.25" y="170.0" />
+      <point x="144.75" y="170.0" />
+      <point x="35.25" y="72.5" />
+    </edge>
+    <edge source="com.company.Bil" target="com.company.Motor" relationship="DEPENDENCY">
+      <point x="-54.75" y="-128.5" />
+      <point x="54.75" y="170.0" />
+      <point x="74.25" y="170.0" />
+      <point x="-35.25" y="72.5" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Bil" relationship="CREATE">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="128.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9227586206896552" showDependencies="true" x="284.0" y="352.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
